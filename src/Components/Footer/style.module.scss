@@ -1,0 +1,26 @@
+.footer{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    ul{
+        padding-left: 0px !important;
+    }
+    li{
+        margin-left: 10px;
+        margin-top: 10px;
+        list-style: none;
+    }
+    .copyRight{
+        position: relative;
+        bottom: -80px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .footer{
+        .copyRight{
+            position: relative;
+            bottom: -10px;
+            left: 10px;
+        }
+    }
+}

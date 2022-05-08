@@ -1,0 +1,80 @@
+.midDiv {
+  padding-top: 100px;
+  background-color: white;
+  .FAQ{
+    .faq-body{
+      padding-left: 20px !important;
+      background-color: transparent !important;
+      padding-right: 20px !important;
+    }
+  }
+  .values{
+    span{
+      font-size: 70px;
+      color: #1A1A1A;
+      line-height: 112px;
+    }
+  }
+.img{
+  span{
+    color: black;
+    // line-height: 80px;
+    font-size: 26px;
+  }
+  img{
+    width: 440px;
+    height: 160px;
+    margin-bottom: 30px;
+  }
+}
+.text1{
+  p{
+    font-size: 50px;
+    line-height: 90px;
+      color: black;
+      text-align: center;
+  }
+}
+  .text{
+    margin-bottom: 20px;
+    span{
+      font-size: 30px;
+      color: black;
+    }
+  }
+  .textLast{
+    background: #F1F1F1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+  }
+  .text2{
+    img{
+      width: 437px;
+      height: 317px;
+    }
+    p{
+      font-size: 30px;
+    }
+      color: black;
+      .heading1{
+        line-height: 150px;
+        font-size: 70px;
+      }
+  }
+  .heading{
+    h1{
+      color: black;
+      font-size: 50px;
+      line-height: 150px;
+      margin-left: 100px;
+    }
+  }
+  .lastText{
+    p{
+      font-size: 55px;
+      line-height: 80px;
+      color: black;
+    }
+  }
+}

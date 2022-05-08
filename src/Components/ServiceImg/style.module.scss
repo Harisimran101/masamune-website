@@ -1,0 +1,31 @@
+.midDiv {
+  padding-top: 300px;
+  background-color: black;
+  .text{
+    position: relative;
+    top: 300px;
+  }
+  .Images {
+    .image1 {
+      position: relative;
+      width: 436px;
+      left: 0px;
+      right: 0px;
+      height: 700px;
+    }
+    .image2 {
+      position: relative;
+      width: 550px;
+      left: 100px;
+      height: 390px;
+      bottom: 430px;
+    }
+    .image3 {
+      position: relative;
+      width: 450px;
+      left: 37px;
+      bottom: 616px;
+      height: 440px;
+    }
+  }
+}

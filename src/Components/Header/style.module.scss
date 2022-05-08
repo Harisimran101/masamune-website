@@ -1,0 +1,125 @@
+.header {
+  background-color: black;
+  position: fixed !important;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  padding: 22px;
+  .button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5px;
+  }
+}
+
+.mainHeader {
+  background-color: black;
+  // width: 1280px;
+  margin-top: 100px;
+  .img{
+    img{
+      width: 400px;
+    }
+
+  }
+  .rifhtText{
+    padding: 70px 50px;
+    h3{
+      border-bottom: 2px solid;
+    }
+  }
+  .list {
+    a {
+      text-decoration: none;
+
+      li {
+        list-style: none;
+        font-size: 40px;
+        color: white;
+        margin-bottom: 5px;
+        .line{
+          width: 0%;
+          height: 10px;
+          background: white;
+          transition: width 2s;
+        }
+      }
+      li:hover {
+        list-style: none;
+        font-size: 40px;
+        color: white;
+        margin-bottom: 5px;
+        .line{
+          width: 50%;
+          height: 5px;
+          background: white;
+          transition: width 2s;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:768px) {
+  .header {
+    background-color: black;
+    position: fixed !important;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    .img{
+      display: none !important;
+    }
+    .button {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      right: 5px;
+      top: 10px;
+    }
+  }
+  .mainHeader {
+    background-color: black;
+    // width: 1280px;
+    margin-top: 50px;
+    .img{
+      display: none !important;
+      img{
+        width: 200px;
+      }
+    }
+    .rifhtText{
+      padding: 15px 30px;
+      h3{
+        border-bottom: 1px solid;
+      }
+    }
+    .list {
+      a {
+        text-decoration: none;
+        li {
+          list-style: none;
+          font-size: 22px;
+          color: white;
+          margin-bottom: 3px;
+        }
+        
+      }
+    }
+  }
+}
+.img2{
+  display: none;
+  transition: width 2s;
+}
+.img3{
+  display: none;
+  transition: width 2s;
+}
+.about:hover{
+  .img2{
+    display: inline;
+    transition: width 2s;
+  }
+}

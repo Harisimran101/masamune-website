@@ -1,0 +1,22 @@
+.freshfashion{
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+.img{
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .freshfashion{
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+}

@@ -1,0 +1,32 @@
+.midDiv{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    .text{
+        margin-top: 23%;
+        span{
+            font-size:40px;
+            text-align: left;
+            color: black;
+            font-weight: 700;
+        }
+        img{
+            width: 300px;
+            padding: 25px;
+        }
+    }
+    .rightText{
+        margin-top: 0%;
+        span{
+            font-size:40px;
+            text-align: left;
+            color: black;
+            font-weight: 700;
+        }
+    }
+    .lefttImage{
+        img{
+            width: 500px;
+        }
+    }
+}

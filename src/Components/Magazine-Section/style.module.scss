@@ -1,0 +1,42 @@
+.midDiv {
+  padding-top: 200px;
+  background-color: white;
+.img{
+  img{
+    width: 600px;
+  }
+}
+  .text{
+    p{
+      color: black;
+      font-size: 40px;
+    }
+  }
+  .lastSection{
+    margin-top: 50px;
+    background: #F1F1F1;
+    margin-bottom: 50px;
+  }
+  .text2{
+      color: black;
+      .heading1{
+        line-height: 150px;
+        font-size: 70px;
+      }
+  }
+  .heading{
+    h1{
+      color: black;
+      font-size: 50px;
+      line-height: 150px;
+      margin-left: 100px;
+    }
+  }
+  .lastText{
+    p{
+      font-size: 55px;
+      line-height: 80px;
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.mainDiv{
+    padding-top: 100px;
+    height: 800px;
+    .textImage{
+        padding: 50px 80px;
+        h1{
+            font-size: 70px;
+        }
+        p{
+            font-size: 40px;
+        }
+        span{
+            font-size: 40px;
+            color: #FFFFFF;
+            opacity: 0.4;
+        }
+        img{
+            width: 300px;
+            padding: 25px;
+        }
+    }
+    .rightImage{
+        img{
+            width: 500px;
+        }
+    }
+    @media screen and(max-width: 768px) {
+        .rightImage{
+            img{
+                width: 350px;
+            }
+        }
+    }
+}

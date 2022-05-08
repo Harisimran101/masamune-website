@@ -1,0 +1,28 @@
+.portfolioDiv{
+    background-color: #6E33FF;
+    height: 800px;
+    .text{
+        span{
+            position: relative;
+            top: 130%;
+            z-index: 999;
+            left: 70px;
+            font-size: 70px;
+            border-bottom: 1px solid;
+        }
+    }
+    .img{
+        img{
+            width: 290px;
+            position: relative;
+            top: 80%;
+        }
+    }
+}
+
+.edge{
+    margin-top: 100px !important;
+    p{
+        font-size: 90px;
+    }
+}
